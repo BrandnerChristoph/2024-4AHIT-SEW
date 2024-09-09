@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2024-4AHIT-SEW", "2024-4AHIT-SEW\2024-4AHIT-SEW.csproj", "{E6037CF6-A70C-4214-943D-0552A372DF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometrischeForm", "GeometrischeForm\GeometrischeForm.csproj", "{8F251AD2-EE9C-4A45-AC90-E4A744C73DEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6037CF6-A70C-4214-943D-0552A372DF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6037CF6-A70C-4214-943D-0552A372DF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6037CF6-A70C-4214-943D-0552A372DF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6037CF6-A70C-4214-943D-0552A372DF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F251AD2-EE9C-4A45-AC90-E4A744C73DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F251AD2-EE9C-4A45-AC90-E4A744C73DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F251AD2-EE9C-4A45-AC90-E4A744C73DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F251AD2-EE9C-4A45-AC90-E4A744C73DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E90A2CD-56FF-4A2F-85CD-D6C2FABF770B}
+	EndGlobalSection
+EndGlobal
