@@ -1,0 +1,60 @@
+﻿<Window x:Class="LinkedList_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LinkedList_WPF"
+        mc:Ignorable="d"
+        Title="LinkedList-Viewer" Height="900" Width="1250">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <GroupBox Header="Knoten hinzufügen" Margin="10">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="120">Name</Label>
+                        <TextBox Width="250" x:Name="nameInput_txtB"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="120">Betrag</Label>
+                        <TextBox Width="250" x:Name="amountInput_txtB"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Margin="5" Click="addStart_Btn_Click">hinzufügen am Beginn</Button>
+                        <Button Margin="5" Click="addEnd_Btn_Click">hinzufügen am Ende</Button>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Knoten löschen" Margin="10">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="120">ID</Label>
+                        <TextBox Width="250" x:Name="delItem_txtB"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Margin="5" Click="delItem_Btn_Click">Löschen</Button>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Knoten suchen" Margin="10">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="120">Such-Name</Label>
+                        <TextBox Width="250" x:Name="searchInput_Name"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="120">gesuchter Betrag</Label>
+                        <TextBox Width="250" x:Name="searchInput_Amount"></TextBox>
+                    </StackPanel>
+                    <Button Width="100" Click="searchBtn_Click">Knoten suchen</Button>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        <Button Width="150" Background="Aqua" FontWeight="Bold" Click="showLinkedList_Btn">Liste anzeigen</Button>
+
+            <Canvas x:Name="LinkedListViewer" 
+                Margin="20" 
+                Height="500" >
+            </Canvas>
+        
+    </StackPanel>
+</Window>
