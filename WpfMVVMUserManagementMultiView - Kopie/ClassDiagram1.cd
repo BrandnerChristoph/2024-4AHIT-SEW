@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="WpfMVVMUserManagementMultiView.MainWindow">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WpfMVVMUserManagementMultiView.ViewModel.AboutViewModel">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\AboutViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfMVVMUserManagementMultiView.ViewModel.BaseViewModel">
+    <Position X="11" Y="1.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ViewModel\BaseViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WpfMVVMUserManagementMultiView.ViewModel.DashboardViewModel">
+    <Position X="16" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\DashboardViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfMVVMUserManagementMultiView.ViewModel.MainViewModel">
+    <Position X="10" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfMVVMUserManagementMultiView.ViewModel.PersonViewModel">
+    <Position X="13" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACBAAQAAAAAEAAAAAUAAAIAAAAAAABAAAAAAA=</HashCode>
+      <FileName>ViewModel\PersonViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfMVVMUserManagementMultiView.Command.UpdateViewCommand">
+    <Position X="4" Y="6" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\UpdateViewCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WpfMVVMUserManagementMultiView.Command.RelayCommand">
+    <Position X="4" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WpfMVVMUserManagementMultiView.Model.Person">
+    <Position X="19" Y="1" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIEABAAAAAQABKEAAAEQAgAAIAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
