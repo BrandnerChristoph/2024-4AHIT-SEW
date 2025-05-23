@@ -1,0 +1,30 @@
+﻿<Window x:Class="OstereiVerwaltungMVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OstereiVerwaltungMVVM"
+        mc:Ignorable="d"
+        Title="Ostereier MVVM" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid ItemsSource="{Binding Ostereier}" SelectedItem="{Binding SelectedOsterei}" AutoGenerateColumns="False" Grid.Row="0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Farbe" Binding="{Binding Farbe}"/>
+                <DataGridTextColumn Header="Muster" Binding="{Binding Muster}"/>
+                <DataGridTextColumn Header="Versteckt am" Binding="{Binding VerstecktAm}"/>
+                <DataGridTextColumn Header="Versteckt Ort" Binding="{Binding VerstecktOrt}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button Content="Hinzufügen" Command="{Binding AddCommand}" Margin="5"/>
+            <Button Content="Speichern" Command="{Binding SaveCommand}" Margin="5"/>
+            <Button Content="Löschen" Command="{Binding DeleteCommand}" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
